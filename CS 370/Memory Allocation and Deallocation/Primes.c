@@ -24,3 +24,21 @@ check if how many primes they contain. Return the number of primes counted.
 All print statements must mention the program that is responsible for generating them. To do this,
 please prefix your print statements with the program name i.e. Driver or Primes.
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+// Function that returns a random integer between a lower and an upper bound
+int random_in_range(int lower_bound, int upper_bound){
+    return 0;
+}
+
+// Function that returns the number of prime numbers found in an array
+int get_prime_count(int *array, int arraySize){
+    return 0;
+}
+
+// Function that computes and returns the running ratio of prime to non-prime numbers
+float get_running_ratio(void){
+    return 0.0;
+}
