@@ -6,19 +6,14 @@ OUT_EXE=Driver
 
 TEST_FILES=test_primes.c
 TEST_EXEC=Test
-LDFLAGS=-lcheck
+FLAGS=-lm
 
 # This is the default make target
 all: $(OUT_EXE)
 
 # The command to build the project
 $(OUT_EXE): $(FILES)
-	$(CC) $(CFLAGS) -o $(OUT_EXE) $(FILES)
-
-# The command to run a test to check for project functionality
-test: $(TEST_FILES)
-	$(CC) $(CFLAGS) -o $(TEST_EXEC) $(TEST_FILES) $(LDFLAGS)
-	./$(TEST_EXEC)
+	$(CC) $(CFLAGS) $(FLAGS) -o $(OUT_EXE) $(FILES)
 
 # Command to remove all compiled files
 clean:
