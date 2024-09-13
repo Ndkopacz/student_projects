@@ -10,3 +10,8 @@ General
 
 ## Server neccessary commands
 ```sudo apt-get install zip```
+```sudo apt-get install valgrind```
+
+## Valgrind running
+must compile with the -g  flag (debugging information)_
+```valgrind --leak-check=full --show-leak-kinds=all ./Driver 12345```

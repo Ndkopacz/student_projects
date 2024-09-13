@@ -21,4 +21,4 @@ clean:
 
 # Command to prepare the submission
 zip:
-	zip -cvzf Nathan-Kopacz-HW1.tar $(FILES) Primes.h Makefile README.txt
+	zip -rv Nathan-Kopacz-HW1.zip $(FILES) Primes.h Makefile README.txt
