@@ -1,0 +1,5 @@
+# Handle Jupyter Notebook files
+*.ipynb text eol=lf
+
+# Ensure all text files use LF in the repository but convert to CRLF on Windows if needed
+* text=auto
