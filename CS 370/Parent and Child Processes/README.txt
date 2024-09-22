@@ -19,7 +19,9 @@ The sample output of HW2.pdf does NOT match what the expected output of the file
 
 -> This problem exists for the Fibonacci and for the Perrin sequences
 
-The programs created in this assignment are tailored to match the sample output text and NOT the description
+Also please note, there are two different interpretations of these sequences with the first number (0) sometimes being ommited and sometimes not.
+
+*The programs created in this assignment are tailored to match the sample output text and NOT the description*
 
 ------------------------- OUTPUTS - Expected ---------------------------
 ===========================================
