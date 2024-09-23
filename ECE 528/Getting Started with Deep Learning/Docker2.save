@@ -1,0 +1,1 @@
+docker run --rm --network host --gpus all -v "$(pwd)":/tf/notebooks --name testing -d testing_container:latest bash -c "jupyter notebook --NotebookApp.token='' --NotebookApp.password='' --allow-root --no-browser --ip=192.168.1.91 --port=8888"
